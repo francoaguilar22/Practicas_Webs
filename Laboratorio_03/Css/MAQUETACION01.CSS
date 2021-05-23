@@ -1,0 +1,35 @@
+.contenedor{
+    width: 980px;
+    height: 800px;
+    background-color: darkseagreen;
+    margin: auto;
+}
+
+.cabezera{
+    width: 980px;
+    height: 250px;
+    background-color:rgb(15, 104, 15);
+
+}
+
+.menu{
+
+    width: 980px;
+    height: 90px;
+    background-color: darkslategrey;
+}
+
+.contenido{
+    width: 980px;
+    height: 400px;
+    background-color: dodgerblue;
+
+}
+
+/* .aside{
+    width: 70px;
+    height: 900px;
+    background-color: firebrick;
+    right: 40px;
+} */
+

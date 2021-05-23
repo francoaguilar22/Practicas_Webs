@@ -1,0 +1,157 @@
+.par{
+
+    background: url("/Img/html.png");
+}
+
+.contenedor{
+
+    background-color: rgb(94, 94, 202);
+}
+
+.cabezara{
+
+    background-color: olivedrab;
+}
+
+.menu{
+    background-color: orange;
+}
+
+.contenido{
+    background-color: rgb(224, 224, 127);
+}
+
+.pie{
+    background-color: palevioletred;
+}
+
+
+
+.parrafotrasparencia{
+
+
+    background-color: black;
+    opacity: 0.75;
+    color: blanchedalmond;
+    
+}
+
+
+/* dfsdfsdfsds */
+
+/* agregar una imagen de fondo al parrafo pero quiero que no se repita */
+
+.parrafoimagenNO{
+background-image: url("/Img/html.png");
+background-repeat: no-repeat;
+}
+
+/* agregamo una imagen al fondo del  parrafopara cambiar el tamaño de la imagen */
+.parrafoimagenTAMAÑO{
+
+    background-image: url("/Img/html.png");
+    background-size:30px;
+}
+
+
+/* agrego una imagen en el parrado pero quiero que se repira en horizaontal */
+.parrrafoREPETIRhorizontal{
+
+    background-image: url("/Img/html.png");
+    background-repeat: repeat-x;
+    background-size:30px;
+
+}
+
+/* agrego una imagen en el parrado pero quiero que se repira en vertical */
+.parrrafoREPETIRvertical{
+
+    background-image: url("/Img/html.png");
+    background-repeat: repeat-y;
+    background-size:30px;
+
+}
+
+/* agrego una imagen en el parrado pero qla iliniamos al centro */
+.parrafoimagencentrar{
+
+    background-image: url("/Img/html.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+
+}
+
+
+/* agrego una imagen en el parrado pero  aliniamos al izquierda */
+.parrafoimagenizquierda{
+
+    background-image: url("/Img/html.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 30px;
+
+}
+
+/* agrego una imagen en el parrado pero  aliniamos al derecha */
+.parrafoimagenderecha{
+
+    background-image: url("/Img/html.png");
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: 30px;
+
+}
+
+
+/* agrego una imagen en el parrado pero  aliniamos en la parte superior */
+.parrafoimagentop{
+
+    background-image: url("/Img/html.png");
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-size: 60px;
+
+}
+
+/* agrego una imagen en el parrado pero  aliniamos en la parte innferior */
+.parrafoimagentinferior{
+
+    background-image: url("/Img/html.png");
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    background-size: 60px;
+
+}
+
+/* agrego una imagen en el parrado pero  aliniamos en la parte superior derrecha */
+.parrafoimagentopderehca{
+
+    background-image: url("/Img/html.png");
+    background-position: top right ;
+    background-repeat: no-repeat;
+    background-size: 60px;
+
+}
+
+/* agrego una imagen en el parrado pero  aliniamos en la parte innferiorizuierda */
+.parrafoimageninferiorizquierda{
+
+    background-image: url("/Img/html.png");
+    background-position: bottom left ;
+    background-repeat: no-repeat;
+    background-size: 60px;
+
+}
+
+/* parrago imagen fondo */
+
+.parrrafoimagenfondo{
+
+    background-image: url("/Img/html.png") , url("/Img/lsh-wales-hospital.gif.crdownload.gif");
+    background-repeat: no-repeat;
+    background-size: 80px , 180px;
+
+    background-position: left, right;
+}
+

@@ -1,0 +1,31 @@
+.titulo{
+    color: darkolivegreen;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.subtitulo{
+   color: darkred;
+   font-weight: bolder;
+}
+
+.parrafo{
+    color: darkslateblue;
+    font-style: italic;
+}
+
+.barra{
+    background-color: rgb(132, 226, 168);
+    height: 10px;
+}
+
+.clasbody{
+    background-color: rgb(228, 207, 154);
+}
+
+/* 
+class : una etiqueta con muchos estilo 
+
+ID : estilos para una estilo
+
+trabajar preferiblemente con class */

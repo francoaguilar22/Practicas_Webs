@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(241, 107, 107);
+}
+
+.contenedor{
+    background-color: rgb(231, 220, 200);
+}
+
+
+.caja1{
+
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width:5px ;
+    border-color: teal;
+    /* margin-left: 10px; */
+}
+
+/* agregamos margenes para cada etiqueta div  */
+
+/* agregamos el margen a la izquierda */
+
+.caja2{
+
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width:5px ;
+    border-color: rgb(255, 233, 30);
+
+    margin-right: 40px;
+
+    /* margin-top: 10px;  para seprar las cajas */
+
+}
+/* agregamos el margen a la derecha */
+
+.caja3{
+
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width:5px ;
+    border-color: rgb(255, 233, 30);
+
+    margin-left: 40px;
+    /* margin-top: 10px;  para seprar las cajas */
+
+}
+
+/* agregamos el margen top(superior) de arriba hacia abajo (tiene que aver algo para aplicar el margin top)*/
+.caja4{
+
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width:5px ;
+    border-color: rgb(255, 233, 30);
+
+    margin-top: 100px;
+
+    /* margin-top: 10px; para seprar las cajas */
+
+}
+
+
+/* agregamos el margen bottom(inferior) de abajo hacia arriba */
+
+.caja5{
+
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width:5px ;
+    border-color: rgb(255, 233, 30);
+
+    margin-bottom: 100px;
+}
+
+.caja6{
+
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width:5px ;
+    border-color: rgb(73, 68, 23);
+
+    margin: 20px 80px 30px 10px;
+}
+
+/* agregamos la caja al medio de todo */
+
+.caja7{
+
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width:5px ;
+    border-color: rgb(73, 68, 23);
+
+    margin: auto;
+}

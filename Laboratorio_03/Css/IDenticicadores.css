@@ -1,0 +1,44 @@
+#titulo{
+    color: rgb(67, 100, 13);
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#barra{
+    background-color: rgb(94, 170, 85);
+    height: 10px;
+}
+
+#subtitulopares{
+   color: darkred;
+   font-weight: bolder;
+}
+
+#parrafopares{
+    color:darkred;
+    font-style: italic;
+}
+
+#subtituloIMpares{
+    color: rgb(68, 22, 175);
+    font-weight: bolder;
+ }
+ 
+ #parrafoIMpares{
+     color: rgb(68, 22, 175);
+     font-style: italic;
+ }
+
+
+
+
+#idbody{
+    background-color: rgb(219, 202, 186);
+}
+
+/* 
+class : una etiqueta con muchos estilo 
+
+ID : estilos para una estilo
+
+trabajar preferiblemente con class */
