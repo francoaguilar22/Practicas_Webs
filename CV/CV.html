@@ -5,31 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MI CV</title>
+    <link rel="stylesheet" href="Css/estilo1.css">
 </head>
-<body style="background-color: rgb(179, 186, 207);">
+ <body>
 
    
-    <div align="center"> <font face="time new roma" size="5" color="#08115E">  MI   CV</font></div>
+    <div class="mi_cv">  MI CV</div>
   
-    <hr color="#08115E">
-    <img src="imagen_cv/imagencv.png" style="border-color: rgb(83, 97, 228);" border="5" align="right" width="120" height="150">
+    <hr class="hr1">
+    
 
-    <div align="center">  <font size="30" color="#08115E" face="time new roma"> CERTUS </font></div> 
+    
 
-    <div >
-      <div align="center">  <font  color="#08115E" face="time new roma" >   Aguilar Rodriguez Jhon Franco </font> </div>
-      <div align="center">  <font color="#08115E" face="time new roma" >   Administracion y Sistemas para la Transformacion Digital</font> </div>
-      <div align="center">  <font color="#08115E" face="time new roma" >   B4 Lt 6 . - Ancón</font> </div>
-      <div align="center">  <font color="#08115E" face="time new roma" >  Teléfono(s): 922990665 </font> </div>
-      <div align="center">  <font color="#08115E" face="time new roma" >  Email: 73808133@certus.edu.pe, jhonfrancoaguilar.r@gmail.com  </font> </div>
+    <div class="cabeza" >
+     
+      
+      <div class="CERTUS"> CERTUS</div> 
+      <div >   Aguilar Rodriguez Jhon Franco  </div>
+      <div>Nac:22 de Noviembre 2001</div>
+      <div>  Administracion y Sistemas para la Transformacion Digital </div>
+      <div>   B4 Lt 6 . - Ancón </div>
+      <div>  Teléfono(s): 922-990-665 </div>
+      <div>  Email: 73808133@certus.edu.pe, jhonfrancoaguilar.r@gmail.com  </div>
+      <div class="touch">TOUCH IMG👇</div>
+      <div class="Cfoto"> <img class="foto" id="foto" src="imagen_cv/imagencv.png" ></div>
     </div>
       <br>
-      <hr color="#08115E">
+      <hr class="hr2">
 
+      <h1 class="h1bloque">INFORMACIÓN GENERAL</h1> 
+  
+      <h2 >Descripcion:</h2>  <div class="conte">TOCA AQUI 👇</div><div class="decoracionAdicioanl" id="toch">USTED ESTA LEYENDO LA DESCRIPCION</div> 
       
-   
-      <u style="color: #08115E;"><h1 style="color: #08115E;">Descripcion:</h1></u>
-    <p align=" left" >
+    <p class="parrafo1" >
 
       Estudiante de la carrera de Administracion y Sistemas para la Transformacion Digital del instituto superior Certus, uno de mis objetivos profesionales se adapta a las
 necesidades de evolucionar y mejorar dentro de la empresa donde me desarrolle como profesional. Considero
@@ -38,38 +46,27 @@ responsabilidad.
 
         </p>
 
-        <u style="color: #08115E;"><h1 style="color: #08115E;"></h1><h3 style="color: #08115E;">Experiencia laboral:</h3></u> Sin Experiencia
+        <h2>Experiencia laboral: </h2>
+        <p class="parrafo2"> Sin experiencia</p>
         
-        <!-- <h2>Intereses Personales:</h2>
-        <ul type="Square">
-      
-          
-          <li> CORRER</li>
-          <li> VIAJAR</li>
-         
-        </ul> -->
-     
-        <a name="datos"> <u style="color: #08115E;"><h1 style="color: #08115E;"></h1><h3 style="color: #08115E;"></h3><h3 style="color: #08115E;">Datos del Postulante</h3></u></a>
-
-        <ul>
-
-            <li><a href="#tabla01"> Educación</a></li>
-            <li><a href="#tabla02" > Cusrsos y Seminarios</a></li>
-            <li><a href="#tabla03"> Proyectos Academicos  </a></li>
-            <li><a href="#tabla04" >  Conocimientos de Informatica </a></li>
-            <li><a href="#idioma" >  Idiomas </a></li>
-            <li><a href="#pre" >  Intereses Personales </a></li>
+        <a name="datos"> <h2>Datos del Postulante</h2> </a>
+         <div class="TodosLosVinculos" href="#datos">
+           
         
-            
-            
-  
-
-        </ul>
+            <a  class="vinculo1"  href="#tabla01"> Educación</a>
+            <a class="vinculo2"   href="#tabla02" > Cusrsos y Seminarios</a>
+            <a class="vinculo3"   href="#tabla03"> Proyectos Academicos  </a>
+            <a class="vinculo4"   href="#tabla04" >  Conocimientos de Informatica </a>
+            <a class="vinculo5"   href="#idioma" >  Idiomas </a></li>
+            <a class="vinculo6"   href="#pre" >  Intereses Personales </a>
+          </div>
+        
 <!-- tabla nº 1 -->
 <a name="tabla01">
-        <table align="center" border="1" style="background-color: rgb(32, 134, 202); ;" >
+        <table  class="tabla1" >
+         
         
-             <caption> <u> Educación </u></caption>
+          <div class="tablatitulo1" id="decorado1"><h4 class="decorado1"> Educación</h4></div>
         <thead>
              <th>Nº </th>
              <th> Nivel de estudio </th>
@@ -103,7 +100,7 @@ responsabilidad.
 
       </table></a>
 
-      <div align="center"><a href="#datos">Regresar </a></div>
+      <div class="divregreso" ><a class="datos"  href="#datos">Regresar </a></div>
 
 <br>
 <br>
@@ -114,13 +111,13 @@ responsabilidad.
 
 <!-- tabla nº 2 -->
 <a name=tabla02>
-<table align="center" border="1" style="background-color: rgb(127, 190, 233); ;">
-  <caption> <u>Cursos y seminarios </u></caption> 
+<table class="tabla2" >
+  <div class="tablatitulo2" id="decorado2"><h4 class="decorado1">Cursos y seminarios</h4></div>
 <thead>
     <th>Nº </th>
     <th> Cursos </th>
     <th> Centros de Estudio</th>
-    <td> Fecha de inicio </td>
+    <th> Fecha de inicio </th>
  <th> Fecha de termino</th>
 
 </thead>
@@ -188,7 +185,7 @@ responsabilidad.
 
 </table></a>
 
-<div align="center"><a href="#datos">Regresar </a></div>
+<div class="divregreso"><a class="datos" href="#datos">Regresar </a></div>
 <br>
 <br>
 <br>
@@ -196,14 +193,14 @@ responsabilidad.
 
 <!-- tabla nº 3 -->
 <a name="tabla03">
-      <table align="center" border="1" style="background-color: rgb(71, 108, 133); ;">
-        <caption><u></u> Proyectos Academicos </u></caption> 
+      <table class="tabla3">
+        <div class="tablatitulo3" id="decorado3"><h4 class="decorado3"> Proyectos Acadmicos</h4></div>
      <thead>
           <th>Nº </th>
           <th> Proyecto </th>
           <th> Objetivos</th>
           <th> Herramientas</th>
-          <td> Fecha de inicio </td>
+          <th> Fecha de inicio </th>
        <th> Fecha de termino</th>
 
      </thead>
@@ -247,7 +244,7 @@ responsabilidad.
     </tbody>
    </table></a>
 
-   <div align="center"><a href="#datos">Regresar </a></div>
+   <div class="divregreso" ><a class="datos"  href="#datos">Regresar </a></div>
 
    <br>
    <br>
@@ -255,8 +252,8 @@ responsabilidad.
 
    <!-- tabla nº 4 -->
    <a name="tabla04">
-   <table align="center" border="1" style="background-color: rgb(107, 108, 124); ;">
-    <caption> <u>Cursos y seminarios </u> </caption>
+   <table class="tabla4" align="center">
+    <div class="tablatitulo4" id="decorado4"><h4 class="decorado4"> Manejos</h4></div>
  <thead>
       <th>Nº </th>
       <th> Descripcion </th>
@@ -320,7 +317,7 @@ responsabilidad.
 </tbody>
 
 </table></a>
-<div align="center"><a href="#datos">Regresar </a></div>
+<div class="divregreso"><a   class="datos" href="#datos">Regresar </a></div>
 
 <br>
 <br>
@@ -328,9 +325,9 @@ responsabilidad.
 <br>
 
 <a name="idioma">
-<table align="center" border="1" style="background-color: rgb(107, 108, 124); ;">
+<table class="tabla5" align="center">
 
-  <caption><u>IDIOMAS</u></caption>
+  <div class="tablatitulo5" id="decorado5"><h4 class="decorado5"> Idiomas</h4></div>
 <thead>
   
 </thead>
@@ -359,16 +356,16 @@ responsabilidad.
 
 </div> -->
 
-<div align="center"><a href="#datos">Regresar </a></div>
+<div class="divregreso"><a class="datos" href="#datos">Regresar </a></div>
 <br>
 <br>
 <br>
 
 
 <a name="pre">
-<table border="1" style="background-color: rgb(58, 122, 124);" align="center">
+<table class="tabla6" align="center">
 
- <caption><u>Intiereses Personales</u></caption>
+  <div class="tablatitulo6" id="decorado6"><h4 class="decorado6"> Intereses Personales</h4></div>
 
  <tbody>
   <td>Escuchar Musica</td>
@@ -386,7 +383,7 @@ responsabilidad.
 </table>
 </a>
 
-<div align="center"><a href="#datos">Regresar </a></div>
+<div class="divregreso"><a  class="datos" href="#datos">Regresar </a></div>
 
     
 </body>
